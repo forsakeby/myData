@@ -1,0 +1,34 @@
+@font-face{
+  font-family: 'suger' ;  /* 自定义字体名称 */
+  src: url('https://cdn.bilicdn.tk/gh/forsakeby/myData@main/fonts/网糖圆体.ttf'); /* 引入字体文件的路径 */
+}
+
+@font-face{
+  font-family: 'openh' ;  /* 自定义字体名称 */
+  src: url('https://cdn.bilicdn.tk/gh/forsakeby/myData@main/fonts/jf-openhuninn-2.0.ttf'); /* 引入字体文件的路径 */
+}
+
+/*应用在body体里，放在第一个，font-family会按顺序使用字体族。如果第一个没找到就会找第二个，以此类推。*/
+body {
+font-family: suger, openh
+}
+
+/*指针样式*/
+body {
+    cursor: url(https://cdn.bilicdn.tk/gh/forsakeby/myData@main/cursor/default.cur),
+        default;
+}
+/*链接小手样式*/
+a,
+img {
+    cursor: url(https://cdn.bilicdn.tk/gh/forsakeby/myData@main/cursor/pointer.cur),
+        default;
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    left: -66px !important
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+    left: 0 !important
+}
